@@ -1,0 +1,25 @@
+{
+  "name": "bookshelf_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start-dev": "nodemon src/server.js",
+    "start-prod": "NODE_ENV=production node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpjen95/bookshelf_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpjen95/bookshelf_api/issues"
+  },
+  "homepage": "https://github.com/gpjen95/bookshelf_api#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^4.0.0"
+  }
+}
